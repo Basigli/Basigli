@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriele Basigli – Software Engineer</title>
+  <meta name="description" content="Portfolio of Gabriele Basigli – Software Engineer from Bologna specialising in low-level programming and embedded software." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav>
+    <div class="nav-inner">
+      <span class="nav-logo">Gabriele <span>Basigli</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#stats">Stats</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="hero-greeting">👋 Hello, world</span>
+      <h1>I'm <span class="highlight">Gabriele Basigli</span></h1>
+      <p class="hero-subtitle">
+        Software Engineer from Bologna &mdash; passionate about
+        low-level programming, embedded systems, and writing software
+        that talks directly to hardware.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects">View my work</a>
+        <a class="btn btn-outline" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about">
+    <div class="container">
+      <p class="section-label">Who I am</p>
+      <h2 class="section-title">About me</h2>
+      <div class="section-divider"></div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Hi! I'm Gabriele, a software engineer based in <strong>Bologna, Italy</strong>.
+            I love working at the intersection of software and hardware – from writing
+            bare-metal firmware for microcontrollers to crafting efficient C/C++ code
+            that squeezes every cycle out of constrained devices.
+          </p>
+          <p>
+            When I'm not hacking on embedded targets I enjoy exploring
+            systems programming, operating-system internals, and the occasional
+            Rust deep-dive. I believe that understanding how things work at the
+            lowest level makes you a better engineer at every layer of the stack.
+          </p>
+          <p>
+            I'm always open to interesting projects and collaborations &mdash;
+            feel free to reach out!
+          </p>
+        </div>
+
+        <div class="about-facts reveal">
+          <div class="fact-item">
+            <span class="fact-icon">📍</span>
+            <div>
+              <span class="fact-label">Location</span>
+              <span class="fact-value">Bologna, Italy</span>
+            </div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">💼</span>
+            <div>
+              <span class="fact-label">Role</span>
+              <span class="fact-value">Software Engineer</span>
+            </div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">⚙️</span>
+            <div>
+              <span class="fact-label">Specialisation</span>
+              <span class="fact-value">Low-level &amp; Embedded Software</span>
+            </div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🐙</span>
+            <div>
+              <span class="fact-label">GitHub</span>
+              <span class="fact-value">
+                <a href="https://github.com/Basigli" target="_blank" rel="noopener">github.com/Basigli</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-label">What I work with</p>
+      <h2 class="section-title">Skills &amp; Tools</h2>
+      <div class="section-divider"></div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <p class="skill-card-title">Languages</p>
+          <div class="skill-tags">
+            <span class="tag">C</span>
+            <span class="tag">C++</span>
+            <span class="tag">Python</span>
+            <span class="tag">Rust</span>
+            <span class="tag">Bash</span>
+            <span class="tag">Assembly</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <p class="skill-card-title">Embedded &amp; Hardware</p>
+          <div class="skill-tags">
+            <span class="tag green">Bare-metal firmware</span>
+            <span class="tag green">RTOS</span>
+            <span class="tag green">STM32 / ARM Cortex-M</span>
+            <span class="tag green">UART / SPI / I²C</span>
+            <span class="tag green">CAN Bus</span>
+            <span class="tag green">FreeRTOS</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <p class="skill-card-title">Systems &amp; Tools</p>
+          <div class="skill-tags">
+            <span class="tag">Linux</span>
+            <span class="tag">GDB / OpenOCD</span>
+            <span class="tag">Git</span>
+            <span class="tag">CMake / Make</span>
+            <span class="tag">Docker</span>
+            <span class="tag">GCC / Clang</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <p class="skill-card-title">Concepts</p>
+          <div class="skill-tags">
+            <span class="tag">Memory management</span>
+            <span class="tag">Concurrency</span>
+            <span class="tag">Bootloaders</span>
+            <span class="tag">DMA</span>
+            <span class="tag">Interrupt handling</span>
+            <span class="tag">Low-power design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label">What I've built</p>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-divider"></div>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">🔌</span>
+            <span class="project-name">Embedded RTOS Kernel</span>
+          </div>
+          <p class="project-desc">
+            A minimal preemptive RTOS kernel written in C for ARM Cortex-M
+            targets, featuring a priority scheduler, semaphores, and a
+            lightweight memory allocator.
+          </p>
+          <div class="project-footer">
+            <span class="project-lang">
+              <span class="lang-dot c"></span> C
+            </span>
+            <a class="project-link" href="https://github.com/Basigli" target="_blank" rel="noopener">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">📡</span>
+            <span class="project-name">CAN Bus Monitor</span>
+          </div>
+          <p class="project-desc">
+            A cross-platform Python tool for sniffing, parsing and visualising
+            CAN Bus frames in real time, with support for DBC file decoding.
+          </p>
+          <div class="project-footer">
+            <span class="project-lang">
+              <span class="lang-dot python"></span> Python
+            </span>
+            <a class="project-link" href="https://github.com/Basigli" target="_blank" rel="noopener">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">🦀</span>
+            <span class="project-name">no_std Rust Driver</span>
+          </div>
+          <p class="project-desc">
+            A <code>no_std</code> Rust peripheral driver for an I²C sensor,
+            published as a crate with HAL-agnostic design using
+            <code>embedded-hal</code> traits.
+          </p>
+          <div class="project-footer">
+            <span class="project-lang">
+              <span class="lang-dot rust"></span> Rust
+            </span>
+            <a class="project-link" href="https://github.com/Basigli" target="_blank" rel="noopener">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">⚡</span>
+            <span class="project-name">STM32 Bootloader</span>
+          </div>
+          <p class="project-desc">
+            A custom UART bootloader for STM32 microcontrollers enabling
+            field firmware updates over serial, with CRC verification and
+            rollback support.
+          </p>
+          <div class="project-footer">
+            <span class="project-lang">
+              <span class="lang-dot c"></span> C
+            </span>
+            <a class="project-link" href="https://github.com/Basigli" target="_blank" rel="noopener">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">🐧</span>
+            <span class="project-name">Linux Kernel Module</span>
+          </div>
+          <p class="project-desc">
+            A character device kernel module with custom ioctl interface,
+            demonstrating kernel-space/user-space communication and
+            interrupt-driven I/O.
+          </p>
+          <div class="project-footer">
+            <span class="project-lang">
+              <span class="lang-dot c"></span> C
+            </span>
+            <a class="project-link" href="https://github.com/Basigli" target="_blank" rel="noopener">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-icon">🛠️</span>
+            <span class="project-name">Build System Toolkit</span>
+          </div>
+          <p class="project-desc">
+            A collection of reusable CMake modules and Bash scripts that
+            automate cross-compilation toolchain setup for ARM embedded
+            targets, including code-size reporting.
+          </p>
+          <div class="project-footer">
+            <span class="project-lang">
+              <span class="lang-dot bash"></span> Bash / CMake
+            </span>
+            <a class="project-link" href="https://github.com/Basigli" target="_blank" rel="noopener">View on GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GitHub Stats ===== -->
+  <section id="stats">
+    <div class="container">
+      <p class="section-label">By the numbers</p>
+      <h2 class="section-title">GitHub Stats</h2>
+      <div class="section-divider"></div>
+
+      <div class="stats-grid reveal">
+        <div class="stats-card">
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=Basigli&show_icons=true&locale=en&theme=github_dark&hide_border=true"
+            alt="Gabriele's GitHub stats"
+            loading="lazy"
+          />
+        </div>
+        <div class="stats-card">
+          <img
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=Basigli&show_icons=true&locale=en&layout=compact&theme=github_dark&hide_border=true"
+            alt="Top languages"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label">Let's talk</p>
+      <h2 class="section-title">Contact</h2>
+      <div class="section-divider"></div>
+
+      <div class="contact-wrapper">
+        <div class="contact-text reveal">
+          <p>
+            Have an interesting project in mind or just want to say hi?
+            Feel free to reach out through any of the channels below.
+          </p>
+
+          <div class="contact-links">
+            <a
+              class="contact-link-item"
+              href="https://github.com/Basigli"
+              target="_blank"
+              rel="noopener"
+            >
+              <span class="contact-link-icon">🐙</span>
+              <div>
+                <span class="contact-link-label">GitHub</span>
+                <span class="contact-link-value">github.com/Basigli</span>
+              </div>
+            </a>
+
+            <a
+              class="contact-link-item"
+              href="https://www.linkedin.com/in/gabriele-basigli"
+              target="_blank"
+              rel="noopener"
+            >
+              <span class="contact-link-icon">💼</span>
+              <div>
+                <span class="contact-link-label">LinkedIn</span>
+                <span class="contact-link-value">linkedin.com/in/gabriele-basigli</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>
+      Crafted with ♥ by
+      <a href="https://github.com/Basigli" target="_blank" rel="noopener">Gabriele Basigli</a>
+      &mdash; Bologna, Italy
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
